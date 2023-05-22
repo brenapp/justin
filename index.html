@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Justin Kristensen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./src/main.ts" async></script>
+    <link rel="stylesheet" href="/assets/index-19c443f8.css">
+  </head>
+  <body class="bg-pinkurple-900">
+    <header
+      class="bg-white w-full h-72 relative"
+      style="
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        touch-action: none;
+      "
+    >
+      <canvas
+        class="absolute top-0 left-0 h-full w-full z-20 pointer-events-none"
+        style="touch-action: none"
+        id="laser-canvas"
+      ></canvas>
+      <section class="max-w-2xl mx-auto pt-8 relative h-full px-4">
+        <h1 class="text-4xl text-pinkurple-400 font-bold">Hey, I'm Justin!</h1>
+        <p class="text-2xl font-light text-pinkurple-900 mt-2">
+          A recent graduate in Computer Science.
+        </p>
+        <section class="absolute bottom-0 right-0 h-2/3 aspect-square">
+          <img
+            src="/justin.png"
+            alt="Justin"
+            class="absolute h-full w-full top-0 left-0 z-10"
+          />
+          <img
+            src="/justin_eye.png"
+            alt="Justin Eye #1"
+            id="justin-eye1"
+            class="absolute h-[13%] top-[40%] left-[35%]"
+          />
+          <img
+            src="/justin_eye.png"
+            alt="Justin Eye #2"
+            id="justin-eye2"
+            class="absolute h-[13%] top-[40%] left-[60%] -z-10"
+          />
+        </section>
+        <nav class="flex pt-4 gap-6">
+          <a
+            href="https://github.com/jkriste"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-black hover:text-pink400"
+            ><svg
+              width="28"
+              height="28"
+              viewBox="0 0 33 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.29 -6.83696e-06C12.4189 -0.00394133 8.67289 1.37083 5.72332 3.87793C2.77375 6.38503 0.813406 9.86059 0.193594 13.6818C-0.426218 17.5029 0.335016 21.4199 2.34088 24.7308C4.34674 28.0417 7.46612 30.5301 11.14 31.75C11.96 31.9 12.25 31.39 12.25 30.96C12.25 30.53 12.25 29.55 12.25 28.19C7.69999 29.18 6.73999 26 6.73999 26C6.43814 25.0144 5.79687 24.1677 4.92999 23.61C3.45999 22.61 5.04999 22.61 5.04999 22.61C5.56529 22.6828 6.05727 22.8719 6.48867 23.1629C6.92007 23.454 7.27959 23.8394 7.53999 24.29C7.76125 24.6912 8.05956 25.0447 8.41779 25.3304C8.77603 25.616 9.18714 25.8281 9.62753 25.9544C10.0679 26.0808 10.5289 26.119 10.9841 26.0667C11.4393 26.0145 11.8797 25.8728 12.28 25.65C12.3428 24.8273 12.6974 24.0542 13.28 23.47C9.65999 23.06 5.85999 21.66 5.85999 15.47C5.83514 13.853 6.43307 12.2883 7.52999 11.1C7.04145 9.69402 7.09855 8.15587 7.68999 6.78999C7.68999 6.78999 9.05999 6.34999 12.17 8.45999C14.8406 7.72675 17.6594 7.72675 20.33 8.45999C23.44 6.34999 24.8 6.78999 24.8 6.78999C25.3997 8.14142 25.471 9.66853 25 11.07C26.0969 12.2583 26.6948 13.823 26.67 15.44C26.67 21.7 22.86 23.07 19.23 23.44C19.6192 23.8313 19.9198 24.3016 20.1113 24.8193C20.3028 25.3369 20.3808 25.8896 20.34 26.44C20.34 28.62 20.34 30.38 20.34 30.91C20.34 31.44 20.63 31.85 21.46 31.69C25.092 30.4379 28.1647 27.9425 30.1351 24.6445C32.1056 21.3465 32.847 17.4582 32.2284 13.6665C31.6098 9.8748 29.671 6.42376 26.7546 3.92302C23.8381 1.42228 20.1317 0.0327823 16.29 -6.83696e-06Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="32.58" height="31.77" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/justin-kristensen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-black hover:text-pink400"
+            ><svg
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_208_14)">
+                <path
+                  d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166V20.452H20.447ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_208_14">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a
+            href="mailto:jkriste@clemson.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-black hover:text-pink400"
+            ><svg
+              width="28"
+              height="28"
+              viewBox="0 0 36 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29.6296 5.33334H5.92592C4.29629 5.33334 2.97777 6.53334 2.97777 8L2.96295 24C2.96295 25.4667 4.29629 26.6667 5.92592 26.6667H29.6296C31.2593 26.6667 32.5926 25.4667 32.5926 24V8C32.5926 6.53334 31.2593 5.33334 29.6296 5.33334ZM29.6296 10.6667L17.7778 17.3333L5.92592 10.6667V8L17.7778 14.6667L29.6296 8V10.6667Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+        </nav>
+      </section>
+    </header>
+    <main class="container mx-auto pt-8 px-4">
+      <h1 class="text-lipstick-400 text-4xl">About Me</h1>
+      <p class="text-white/90 mt-2">
+        I'm a Computer Science student at Clemson University, planning to
+        graduate May 2023. I love Computer Science for the simplicity of
+        building something out of nothing! I'm a quick learner and take pride in
+        my work. Check out the pinned repositories below to see examples of what
+        I've made and worked on!
+      </p>
+      <section class="pt-8 h-screen">
+        <h1 class="text-lipstick-400 text-4xl">Section Spacer</h1>
+      </section>
+    </main>
+  </body>
+</html>
