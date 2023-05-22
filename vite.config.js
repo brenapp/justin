@@ -1,3 +1,4 @@
-module.exports = {
+/** @type {import('vite').UserConfig} */
+export default {
   base: "/justin/",
 };
